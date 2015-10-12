@@ -1,0 +1,87 @@
+<?xml-stylesheet type="text/xsl" href="pinout.xsl"?>
+<tech>
+	<pinout name="Frogger Monitor Connector" type="edge">
+		<notes>Stereo audio is avbailable on a separate 3 pin header.</notes>
+		<row side="component">
+			<pin location="1">GND</pin>
+			<pin location="2">GND</pin>
+			<pin location="3">+5VDC</pin>
+			<notch/>
+			<pin location="4">+5VDC</pin>
+			<pin location="5">-5VDC</pin>
+		</row>
+		<row side="circuit">
+			<pin location="A">GND</pin>
+			<pin location="B">GND</pin>
+			<space/>
+			<notch/>
+			<space/>
+			<pin location="C">-5VDC</pin>
+		</row>
+	</pinout>
+<pinout name="56pin Standard JAMMA Edge Connector" type="edge">
+	<row side="component">
+		<pin location="1">GND</pin>
+		<pin location="2">GND</pin>
+		<pin location="3">+5VDC</pin>
+		<pin location="4">+5VDC</pin>
+		<pin location="5">-5VDC</pin>
+		<pin location="6">+12VDC</pin>
+		<pin location="7" key="true"/>
+		<pin location="8">Counter 1</pin>
+		<pin location="9">C Lockout 1</pin>
+		<pin location="10">Speaker</pin>
+		<pin location="11">N/C</pin>
+		<pin location="12">RED</pin>
+		<pin location="13">BLUE</pin>
+		<pin location="14">GND</pin>
+		<pin location="15">Test SW</pin>
+		<pin location="16">Coin 1</pin>
+		<pin location="17">1P Start</pin>
+		<pin location="18">1P Up</pin>
+		<pin location="19">1P Down</pin>
+		<pin location="20">1P Left</pin>
+		<pin location="21">1P Right</pin>
+		<pin location="22">1P Fire 1</pin>
+		<pin location="23">1P Fire 2</pin>
+		<pin location="24">1P Fire 3</pin>
+		<pin location="25">N/C</pin>
+		<pin location="26">N/C</pin>
+		<pin location="27">GND</pin>
+		<pin location="28">GND</pin>
+	</row>
+	<row side="circuit">
+		<pin location="1">GND</pin>
+		<pin location="2">GND</pin>
+		<pin location="3">+5VDC</pin>
+		<pin location="4">+5VDC</pin>
+		<pin location="5">-5VDC</pin>
+		<pin location="6">+12VDC</pin>
+		<pin location="7" key="true"/>
+		<pin location="8">Counter 2</pin>
+		<pin location="9">C Lockout 2</pin>
+		<pin location="10">Speaker</pin>
+		<pin location="11">N/C</pin>
+		<pin location="12">GREEN</pin>
+		<pin location="13">SYNC</pin>
+		<pin location="14">Service SW</pin>
+		<pin location="15">Slam SW</pin>
+		<pin location="16">Coin 2</pin>
+		<pin location="17">2P Start</pin>
+		<pin location="18">2P Up</pin>
+		<pin location="19">2P Down</pin>
+		<pin location="20">2P Left</pin>
+		<pin location="21">2P Right</pin>
+		<pin location="22">2P Fire 1</pin>
+		<pin location="23">2P Fire 2</pin>
+		<pin location="24">2P Fire 3</pin>
+		<pin location="25">N/C</pin>
+		<pin location="26">N/C</pin>
+		<pin location="27">GND</pin>
+		<pin location="28">GND</pin>
+	</row>
+</pinout>
+
+</tech>
+
+
